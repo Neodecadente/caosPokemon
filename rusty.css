@@ -1,0 +1,46 @@
+*,
+*:after,
+*:before {
+  padding: 0;
+  margin: 0;
+}
+
+.contenedorCuadricula {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(3, 8rem);
+  grid-template-rows: repeat(3, 10rem);
+  justify-content: center;
+  align-content: center;
+}
+
+.cabecera {
+  grid-column: 2/4;
+}
+
+.tagActuales {
+  grid-column: 1/1;
+}
+.tagNuevos {
+  grid-column: 1/1;
+}
+
+.actualJ1 {
+  grid-column: 2/2;
+}
+.actualJ2 {
+  grid-column: 3/3;
+}
+.nuevoJ1 {
+  grid-column: 2/2;
+}
+.nuevoJ2 {
+  grid-column: 3/3;
+}
+.centra  {
+  grid-column: 2/4;
+}
+
+h4 {
+  text-transform: capitalize;
+}
